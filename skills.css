@@ -1,0 +1,19 @@
+
+  .skill-card {
+    background: linear-gradient( #f0f0f0, #d6d6d6);
+    transition: transform 0.5s, box-shadow 0.3s;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-icon {
+    transition:  0.3s, transform 0.3s;
+  }
+  
+  .skill-card:hover .skill-icon {
+    transform: rotate(360deg);
+
+  }

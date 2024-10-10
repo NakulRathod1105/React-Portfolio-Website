@@ -1,0 +1,48 @@
+.project-section {
+  background-color: #f8f9fa;
+  padding-top: 40px;
+}
+
+
+.project-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.video-container {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.project-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius:10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-video:hover {
+  opacity: 0.85;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  color:black;
+  margin-bottom: 0.75rem;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.25rem;
+}
+

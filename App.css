@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+body{
+  font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  cursor: all-scroll;
+}
+.homepage{
+background-color: white;
+color: black;
+position: relative;
+z-index: 1;
+margin-top: 63px;
+}
+footer{
+  background-color:steelblue;
+  color: white;
+}
+.navbar {
+  background-color:steelblue;
+  color: white;
+}
+
+.lead {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3498db; /* Blue color */
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:white; 
+}
+
+::-webkit-scrollbar-track {
+  background: black; 
+  border-radius: 0px;
+}
+
+@media (max-width: 767px) { /* Adjust for phone screens, including Samsung A21s */
+  .col-lg-2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
